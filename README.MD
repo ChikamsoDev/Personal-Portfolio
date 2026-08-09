@@ -17,7 +17,7 @@ code structure, and ability to build clean, responsive layouts without framework
 Live site:  
 https://chikamsodev.github.io/Personal-Portfolio/
 
-![Personal Portfolio Screenshot](image.png)
+![Personal Portfolio Screenshot](./assets/images/image.png)
 
 ## 🛠 Tech Stack
 

@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Portfolio of Chikamso Nwoha, a frontend developer building clean, responsive websites for modern businesses."
+    content="Chikamso Nwoha builds clean, WhatsApp-first websites for small businesses in Nigeria — beauty brands, suppliers, law firms, and shops that run on WhatsApp already."
   />
-  <title>Chikamso Nwoha | Frontend Developer</title>
+  <title>Chikamso Nwoha | Websites for Small Businesses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
 </head>
@@ -15,107 +18,175 @@
 <body>
 
   <header class="site-header">
-    <h1 class="logo">ChikamsoDev</h1>
+    <a href="#top" class="logo">Chikamso<span>Dev</span></a>
     <nav>
       <ul class="nav-list">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
 
     <!-- Hero -->
-    <section class="hero">
-      <h2>Frontend Developer</h2>
-      <p>
-        I build clean, responsive websites for modern businesses.
-      </p>
-      <a href="#projects" class="primary-btn">View My Work</a>
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true">
+        <span class="glow g1"></span>
+        <span class="glow g2"></span>
+        <span class="glow g3"></span>
+        <span class="glow g4"></span>
+      </div>
+      <div class="hero-inner">
+        <p class="eyebrow">Frontend Developer &middot; Enugu, Nigeria</p>
+        <h1>
+          Websites for businesses that already run on&nbsp;WhatsApp.
+        </h1>
+        <p class="hero-sub">
+          I build clean, fast, mobile-first sites for shops, suppliers and
+          service businesses — the kind of site your customers actually
+          open before they message you.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See the work</a>
+          <a
+            href="https://wa.me/2349123668030?text=Hi%20Chikamso%2C%20I%20saw%20your%20site%20and%20I%27d%20like%20to%20talk%20about%20a%20website%20for%20my%20business."
+            class="btn btn-whatsapp"
+            target="_blank" rel="noopener"
+          >
+            <span class="wa-icon" aria-hidden="true">&#9679;</span>
+            Chat on WhatsApp
+          </a>
+        </div>
+        <p class="hero-meta">
+          Or find me on
+          <a href="https://instagram.com/REPLACE_WITH_YOUR_HANDLE" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
     </section>
 
     <!-- About -->
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        My name is Chikamso Nwoha. I focus on building well-structured,
-        responsive websites with clean layouts and thoughtful user experience.
-      </p>
+    <section id="about" class="section">
+      <div class="section-inner">
+        <p class="eyebrow">About</p>
+        <h2>Small sites, done properly.</h2>
+        <p class="body-text">
+          My name is Chikamso Nwoha. I'm a self-taught developer, and I build
+          small, well-structured websites for local businesses — the kind
+          that need one page a customer can trust, not a bloated site nobody
+          finishes loading. Most of my clients already run their business on
+          WhatsApp; I just give it a front door.
+        </p>
+        <p class="body-text">
+          I build with modern, AI-assisted tools — including Claude — as
+          part of my workflow. It means a faster turnaround without cutting
+          corners on the details.
+        </p>
+      </div>
     </section>
 
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Tailwind CSS</li>
-        <li>JavaScript</li>
-        <li>Git</li>
-      </ul>
+    <!-- Tools -->
+    <section id="tools" class="section section-alt">
+      <div class="section-inner">
+        <p class="eyebrow">Tools</p>
+        <h2>What I build with</h2>
+        <ul class="tools-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Tailwind CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+      </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
-      <h2>Projects</h2>
+    <!-- Work / Projects -->
+    <section id="work" class="section">
+      <div class="section-inner">
+        <p class="eyebrow">Selected work</p>
+        <h2>Real businesses, live sites.</h2>
 
-      <div class="projects-grid">
+        <div class="projects-grid">
 
-        <article class="project-card">
-          <h3>Responsive Café Menu</h3>
-          <p>
-            A clean, responsive menu page built with semantic HTML and modern CSS.
-          </p>
-          <div class="project-links">
-            <a href="https://chikamsodev.github.io/cafe-menu/" target="_blank">Live</a>
-            <a href="https://github.com/chikamsodev/cafe-menu" target="_blank">Code</a>
-          </div>
-        </article>
+          <article class="project-card card-glow">
+            <p class="card-tag">Beauty &middot; Bridal Glam</p>
+            <h3>Ada's Glow</h3>
+            <p class="card-desc">
+              A WhatsApp-first ordering site for a makeup, lashes and gele
+              business — full product shelf, bridal packages, and one-tap
+              ordering that routes straight to WhatsApp so nothing gets
+              missed.
+            </p>
+            <div class="project-links">
+              <a href="https://chikamsodev.github.io/Ada-s-Glow/" target="_blank" rel="noopener">Live ↗</a>
+              <a href="https://github.com/chikamsodev/Ada-s-Glow" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </article>
 
-        <article class="project-card">
-          <h3>Playing Cards UI</h3>
-          <p>
-            Realistic playing card components focusing on layout, spacing,
-            and responsive design.
-          </p>
-          <div class="project-links">
-            <a href="https://chikamsodev.github.io/playing-cards/" target="_blank">Live</a>
-            <a href="https://github.com/chikamsodev/playing-cards" target="_blank">Code</a>
-          </div>
-        </article>
+          <article class="project-card card-amiyi">
+            <p class="card-tag">Building Materials &middot; Supplier</p>
+            <h3>Amiyi Building Materials</h3>
+            <p class="card-desc">
+              A supplier site for a 25-year iron rods and cement business —
+              built for contractors checking today's price from a job site,
+              not browsing on a desktop.
+            </p>
+            <div class="project-links">
+              <a href="https://chikamsodev.github.io/amiyi-building-materials-site/" target="_blank" rel="noopener">Live ↗</a>
+              <a href="https://github.com/chikamsodev/amiyi-building-materials-site" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </article>
 
-        <article class="project-card">
-          <h3>Pricing Plans Layout</h3>
-          <p>
-            Modern pricing cards with clear hierarchy and hover states.
-          </p>
-          <div class="project-links">
-            <a href="https://chikamsodev.github.io/Pricing-Plans-Layout-Page/" target="_blank">Live</a>
-            <a href="https://github.com/chikamsodev/Pricing-Plans-Layout-Page" target="_blank">Code</a>
-          </div>
-        </article>
+          <article class="project-card card-lexloci">
+            <p class="card-tag">Legal &middot; Professional Services</p>
+            <h3>Lex Loci Attorneys</h3>
+            <p class="card-desc">
+              A law firm site built to read as credible at a glance —
+              practice areas, principal counsel's background, and a
+              WhatsApp-first enquiry flow for a firm that runs on trust
+              more than SEO.
+            </p>
+            <div class="project-links">
+              <a href="https://chikamsodev.github.io/lex-loci-demo/" target="_blank" rel="noopener">Live ↗</a>
+              <a href="https://github.com/chikamsodev/lex-loci-demo" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </article>
 
+        </div>
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Interested in working together?
-      </p>
-      <a href="mailto:nwohachikamso@gmail.com" class="primary-btn">
-        Get in Touch
-      </a>
+    <section id="contact" class="section section-contact">
+      <div class="section-inner">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Have a business that needs a proper front door?</h2>
+        <p class="body-text">
+          Send me a message on WhatsApp with what you sell and I'll tell you
+          straight whether a site is worth it for you right now.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="https://wa.me/2349123668030?text=Hi%20Chikamso%2C%20I%27d%20like%20to%20talk%20about%20a%20website%20for%20my%20business."
+            class="btn btn-whatsapp"
+            target="_blank" rel="noopener"
+          >
+            <span class="wa-icon" aria-hidden="true">&#9679;</span>
+            Chat on WhatsApp
+          </a>
+          <a href="mailto:nwohachikamso@gmail.com" class="btn btn-ghost">
+            Email instead
+          </a>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Chikamso Nwoha</p>
+    <p>&copy; 2026 Chikamso Nwoha &middot; Enugu, Nigeria</p>
   </footer>
 
 </body>
